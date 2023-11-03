@@ -23,9 +23,6 @@ Navigate to the directory containing the `generate_viz.c` file and run:
 
 ```bash
 gcc -o generate_viz -lm generate_viz.c
-
-
-
 ```
-The code and the documentation were created with ChatGBT (GBT-4). The author has tested, arranged the code, and made it public.
-```
+
+A note from the author: The code and the documentation were created with ChatGBT (GBT-4). The author has tested, arranged the code, and made it public.
