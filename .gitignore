@@ -1,0 +1,56 @@
+# Compiled object files
+*.o
+*.so
+*.lib
+*.dll
+*.exe
+*.out
+
+# Precompiled Headers
+*.gch
+
+# Dynamic data
+*.csv
+
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editors and IDEs
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python virtual environments
+venv/
+env/
+pyvenv.cfg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other files and folders to ignore
+*.log
+*.tmp
+*.temp
+
