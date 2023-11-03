@@ -9,7 +9,7 @@ distances = df['distance']
 
 # Plot a histogram of the distances
 plt.figure(figsize=(10, 6))
-plt.hist(distances, bins=50, color='blue', edgecolor='black')
+plt.hist(distances, bins=100, color='blue', edgecolor='black')
 
 # Add title and labels to the histogram
 plt.title('Histogram of Distances Between Points')

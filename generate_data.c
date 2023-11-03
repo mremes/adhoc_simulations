@@ -18,8 +18,8 @@ int main() {
     fprintf(file, "x1,y1,x2,y2,distance\n");
 
     // We will iterate from 0 to 10000 to generate numbers for both generators
-    for (int i = 0; i <= 10000; ++i) {
-        for (int j = 0; j <= 10000; ++j) {
+    for (int i = 0; i <= 1000; ++i) {
+        for (int j = 0; j <= 1000; ++j) {
             // We exclude pairs where the two numbers are the same
             if (i != j) {
                 double distance = calculate_distance(i, i, j, j);
